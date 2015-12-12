@@ -6,6 +6,7 @@ module.exports = new (function(){
 	var dirSeparator = '/';
 	switch( process.platform ){
 		case 'darwin':
+		case 'linux':
 			dirSeparator = '/';
 			supported = true;
 			break;
